@@ -6,7 +6,13 @@ It should always play from the "live" position.
 Remark:
 We can never use fixed lengths (frames or seconds for start, duration, length) of the video or audio because those videos and streams can be dynamic in the end so we never know how long a video is and what framerate it has, same for the audio.
 
+Usage:
+In linux replace ` with \
+1. start ffplay
+2. start ffmpeg
+
 ```
+ffplay udp://127.0.0.1:23000
 ffmpeg `
 -i video_0.mp4 `
 -i video_1.mp4 `
