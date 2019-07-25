@@ -1,6 +1,10 @@
 #1. test 1
-1. BUG: stream starts from beginning every time
-2. BUG: not looped
+1. BUG 1: audio stream starts from beginning every time i amix it.
+It should always play from the "live" position.
+2. BUG 2: the [videoout] and [audioout] should be able to be looped (after concating) for x amounts or -1 (infinite)
+
+Remark:
+We can never use fixed frames or lengths of the video because those videos and streams are dynamic
 
 ```
 ffmpeg `
