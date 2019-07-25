@@ -4,7 +4,7 @@ It should always play from the "live" position.
 2. BUG 2: the [videoout] and [audioout] should be able to be looped (after concating) for x amounts or -1 (infinite)
 
 Remark:
-We can never use fixed frames or lengths of the video because those videos and streams are dynamic
+We can never use fixed lengths (frames or seconds for start, duration, length) of the video because those videos and streams are dynamic.
 
 ```
 ffmpeg `
